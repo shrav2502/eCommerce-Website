@@ -1,0 +1,42 @@
+.navbar1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  height: 80px;
+  box-sizing: border-box;
+  position: sticky;
+  box-shadow: 0 10px 8px -8px lightgray;
+  border-radius: 7px;
+}
+
+li {
+  list-style-type: none;
+}
+
+.options {
+  margin-left: -600px;
+}
+.options li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.options li div {
+  border-bottom: 5px solid transparent;
+}
+
+.options li a {
+  transition: all 0.3s ease 0s;
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+}
+
+.options li div:hover {
+  border-bottom: 5px solid orangered;
+}
+
+.options li div a:hover {
+  color: orange;
+}
