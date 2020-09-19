@@ -1,0 +1,7 @@
+.content {
+  display: grid;
+  /* grid-template-columns: 270px 900px;
+  grid-gap: 25px; */
+  margin-top: 20px;
+  position: relative;
+}

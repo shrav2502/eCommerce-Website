@@ -1,0 +1,10 @@
+.women {
+  width: 1200px;
+  margin: auto;
+}
+
+.items {
+  display: grid;
+  grid-template-columns: 290px 290px 290px;
+  grid-gap: 30px;
+}

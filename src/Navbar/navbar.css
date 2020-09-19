@@ -1,13 +1,18 @@
 .navbar1 {
   display: flex;
   justify-content: space-between;
-  align-items: center;
   padding: 20px;
   height: 80px;
   box-sizing: border-box;
   position: sticky;
   box-shadow: 0 10px 8px -8px lightgray;
   border-radius: 7px;
+  width: 1200px;
+  margin: auto;
+  top: 0;
+  background-color: white;
+  /* border: 1px solid; */
+  z-index: 3;
 }
 
 li {
@@ -20,6 +25,7 @@ li {
 .options li {
   display: inline-block;
   padding: 0px 20px;
+  align-items: center;
 }
 
 .options li div {
