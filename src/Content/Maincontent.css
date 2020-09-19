@@ -1,13 +1,12 @@
 .main {
-  height: 390px;
+  height: 420px;
   width: 270px;
-  /* border: 1px solid; */
-  /* display: grid;
-  grid-template-columns: 433px 433px;
-  grid-gap: 30px; */
   margin-left: 290px;
-  background-color: #f5f5f5;
-  border-radius: 8px;
+  /* background-color: #f5f5f5; */
+  /* border-radius: 5px; */
+  transition: all 0.3s ease 0s;
+  text-align: center;
+  outline: transparent;
 }
 
 .item {
@@ -17,15 +16,37 @@
 img {
   height: 300px;
   width: 270px;
+  /* border-radius: 10px; */
 }
 
 .description {
   display: grid;
-  grid-template-columns: 200px 70px;
+  grid-template-columns: 210px 60px;
 }
 
 .main:hover {
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12), 0 2px 2px rgba(0, 0, 0, 0.12),
     0 4px 4px rgba(0, 0, 0, 0.12), 0 8px 8px rgba(0, 0, 0, 0.12),
     0 16px 16px rgba(0, 0, 0, 0.12);
+}
+
+.view {
+  text-decoration: none;
+}
+
+.viewDiv {
+  display: none;
+}
+
+.view:hover .viewDiv {
+  display: block;
+  margin-top: -35px;
+  height: 40px;
+  color: black;
+  font-weight: bold;
+  background-color: hsla(0, 0%, 100%, 0.7);
+  z-index: 5;
+  position: absolute;
+  width: 270px;
+  line-height: 40px;
 }

@@ -4,6 +4,7 @@ import App from "./App";
 import Homepage from "./Homepage/Homepage";
 import Kids from "./Kids";
 import Men from "./Men";
+import ProductDescription from "./ProductDescription";
 import Women from "./Women";
 
 function Root() {
@@ -15,6 +16,7 @@ function Root() {
           <Route path={"/women"} component={Women} />
           <Route path={"/men"} component={Men} />
           <Route path={"/kids"} component={Kids} />
+          <Route path={"/description"} component={ProductDescription} />
         </Switch>
       </div>
     </Router>
